@@ -1,15 +1,2 @@
 # Armstrong-number
 Program in python to check whether a number is armstrong number or not.
-import math as m
-n=int(input("enter no.:"))
-org=n
-sum=0
-l=int(m.log10(n))
-while n>0:
-    r=n%10
-    sum=sum+(r**(l+1))
-    n=n//10
-if org==sum:
-    print(org," is  armstrong")
-else:
-    print(org," is not armstrong")

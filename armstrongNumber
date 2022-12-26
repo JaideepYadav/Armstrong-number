@@ -1,3 +1,5 @@
+#Python program for generalised armstrong number
+
 import math as m
 n=int(input("enter no.:"))
 org=n
@@ -8,6 +10,6 @@ while n>0:
     sum=sum+(r**(l+1))
     n=n//10
 if org==sum:
-    print(org," is  armstrong")
+    print(f"{org} is an armstrong number")
 else:
-    print(org," is not armstrong")
+    print(f"{org} is not an armstrong number")
